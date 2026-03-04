@@ -102,7 +102,7 @@ app.post('/process-speech', (req, res) => {
         
         twiml.say({ voice: 'Polly.Kajal-Neural' }, 'ab ja gym or mehnat ker.');
     } else {
-        twiml.say({ voice: 'Polly.Kajal-Neural' }, 'ruk 5 min me waapis call kerta hu aawaz sahi se nahi aa rahi h teri');
+        twiml.say({ voice: 'Polly.Kajal-Neural' }, 'ruk 5 , min me  , waapis call  , kerta hu  ,aawaz  ,sahi se  ,nahi aa  ,rahi h  ,teri');
     }
 
     twiml.hangup();
