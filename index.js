@@ -100,7 +100,7 @@ app.post('/process-speech', (req, res) => {
         isAwake = true;
         if (retryTimeout) clearTimeout(retryTimeout); // Stop the 5-minute loop
         
-        twiml.say({ voice: 'Polly.Kajal-Neural' }, 'ab ja gym or mehnat ker.');
+        twiml.say({ voice: 'Polly.Kajal-Neural' }, 'ab ,ja  ,gym  ,or  ,mehnat  ,ker.');
     } else {
         twiml.say({ voice: 'Polly.Kajal-Neural' }, 'ruk 5 , min me  , waapis call  , kerta hu  ,aawaz  ,sahi se  ,nahi aa  ,rahi h  ,teri');
     }
